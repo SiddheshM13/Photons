@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column">
+  </div>
+  <div class="column" style="align-content: center;">
+    <h2 align="center">About us</h2>
+    <p style="font-style: italic; text-align: center;">We aim to help our farmers produce good yield by renting different equipments at subsidised rates thereby bridging tha gap between the government and our farmers.Our main motive includes providing farming equipments on weekly basis so that farmers need not buy these items at a very high cost.Our future scope includes
+    collaborating with the government and NGO'S to locate the different ration shops which rent equipments. This is made to eliminate the middlemen, reducing corruption and allowing equal access to everyone and thereby making the lifes of our farmers much easier and more fruitful.</p>
+    <img src="farmer3.jpg" style="align-content: center; width="350" height="350">
+  </div>
+  <div class="column"">
+  </div>
+</div>
+
+</body>
+</html>
